@@ -31,7 +31,7 @@ h1{
 
 .gallery .gallery-item{
     margin: 1rem;
-    width: auto;
+    width: 400px;
     height: 300px;
     box-shadow: 10px 10px 17px -13px rgba(0,0,0,0.75);
     cursor: pointer;
@@ -52,15 +52,22 @@ h1{
     height: 100%;
     background: rgba(0,0,0,0.7);
     overflow: auto;
-    padding-top: 8rem;
+    padding-top: 1rem;
 }
 
 .modal-items{
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.modal-items img{
+    width: 60%;
+    height: 50%;
 }
 
 .fa-times{
     color: #f4f4f4;
     cursor: pointer;
+    margin-left: .5rem;
 }

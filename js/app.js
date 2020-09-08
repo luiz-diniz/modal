@@ -9,8 +9,8 @@ closeBtn.addEventListener('click', CloseModal);
 function ModalHandler(e){
     if(e.target.classList.contains('gallery-item')){
         let srcImg = e.target.src;
+
         modalItems.firstElementChild.src = srcImg;
-        
         modal.style.display = 'block';
     }
 }

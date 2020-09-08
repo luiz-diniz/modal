@@ -61,6 +61,7 @@ h1{
     position: relative;
 }
 
+/* Not so good on mobile, need to fix this */
 .modal-items img{
     width: 60%;
     height: 50%;
